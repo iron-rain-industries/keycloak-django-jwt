@@ -19,7 +19,7 @@ docker run -d --name keycloak-client \
             ironrainindustries/kc-django:bc-01
 
 # Run database migrations
-docker exec keycloak-client python manage.py makemigrations
+docker exec keycloak-client python manage.py migrate
 
 ```
 
