@@ -31,4 +31,4 @@ docker exec keycloak-client python manage.py makemigrations
 `KEYCLOAK_AUDIENCE` - Required for the POST, will need changing if the default audience, `account` is changed on the Keycloak side.
 
 #### Notes
-The database is non-persistent as the application is 
+The database is non-persistent as the application is stateless and intended for dev only.
