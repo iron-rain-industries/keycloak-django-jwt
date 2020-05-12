@@ -23,6 +23,8 @@ docker exec keycloak-client python manage.py migrate
 
 ```
 
+The site will be available at `host:8000`, the login will redirect to the Keycloak server and require a valid user from the `realm/client` used.
+
 #### Environment Variables
 `KEYCLOAK_HOST` - URL to the Keycloak host.
 `KEYCLOAK_REALM` - The Realm within Keycloak being used.
