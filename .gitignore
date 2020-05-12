@@ -1,0 +1,4 @@
+venvs
+venvs/*
+./venvs/*
+.vscode
